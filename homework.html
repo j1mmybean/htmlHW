@@ -10,35 +10,37 @@
             padding: 0;
         }
         .box {
+            background-color:darkslategray;
+            color:aliceblue;
             border: 1px solid gray;
-            width: 900px;
+            width: 70%;
             margin: 20px auto;
+            padding: 20px 20px;
+            text-align:justify;
         }
         img {
             box-sizing: border-box;
-            width: 600px;
-            border: 3px solid green;
-            padding: 20px 20px;
-            margin: 20px 20px 0 20px;
+            width: 100%;
         }
         figure {
+            width: 70%;
             float: left;
+            padding: 0 0 0 0;
             margin: 0 10px 10px 0;
-            background-color:gray;
+            background-color: gray;
+            border: 3px solid green;
         }
         figcaption{
             text-align:center;
             margin:0 0 10px 0;
         }
-        h1{
-            margin:30px;
+        h1 {
+            font-size: 35px;
+            margin:0 30px;
         }
         p{
+            text-indent:32px;
             margin:10px;
-        }
-        div{
-            background-color:darkslategray;
-            color:aliceblue;
         }
         body {
             background-image: url(images/AiAndChess.jpg);
@@ -49,10 +51,10 @@
 </head>
 
 <body>
-    <div class="box">
+    <article class="box">
         <h1>「這是全人類的轉捩點」AlphaGo打敗棋王，AI顛覆世界</h1>
         <figure>
-            <img class="img1" src="images/AlphaGoWin.jpg" alt="代表AlphaGo的黃士傑與李世乭。" title="代表AlphaGo的黃士傑與李世乭" width="400" />
+            <img src="images/AlphaGoWin.jpg" alt="代表AlphaGo的黃士傑與李世乭。" title="代表AlphaGo的黃士傑與李世乭" width="400" />
             <figcaption >代表AlphaGo的黃士傑與李世乭。</figcaption>
         </figure>
         <p>
@@ -95,6 +97,6 @@
         <p>
 
         </p>
-    </div>
+    </article>
 </body>
 </html>
